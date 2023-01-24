@@ -14,27 +14,27 @@ on:
       DEVICE_TREE:
         description: 'device tree'
         required: true
-        default: 'https://github.com/xiaoleGun/android_device_xiaomi_wayne-twrp'
+        default: 'https://github.com/Yuyuko1024/device_xiaomi_chopin'
       DEVICE_TREE_BRANCH:
         description: 'branch'
         required: true
-        default: 'android-12.1'
+        default: '12.1'
       DEVICE_PATH:
         description: 'device path'
         required: true
-        default: 'device/xiaomi/wayne'
+        default: 'device/xiaomi/chopin'
       DEVICE_NAME:
         description: 'device codename'
         required: true
-        default: 'wayne'
+        default: 'chopin'
       MAKEFILE_NAME:
         description: 'makefile name'
         required: true
-        default: 'twrp_wayne'
+        default: 'twrp_chopin'
       MAKEWHAT:
         description: 'make what'
         required: true
-        default: 'recovery'
+        default: 'boot'
         
 jobs:
   Build:
