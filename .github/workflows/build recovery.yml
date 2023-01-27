@@ -14,11 +14,11 @@ on:
       DEVICE_TREE:
         description: 'device tree'
         required: true
-        default: 'https://github.com/Yuyuko1024/device_xiaomi_chopin'
+        default: 'https://github.com/qishisinuo70/fox_device_xiaomi_chopin'
       DEVICE_TREE_BRANCH:
         description: 'branch'
         required: true
-        default: '12.1'
+        default: 'android-12'
       DEVICE_PATH:
         description: 'device path'
         required: true
