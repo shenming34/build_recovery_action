@@ -115,3 +115,12 @@ jobs:
         tag: ${{ github.event.inputs.DEVICE_NAME }}_${{ env.BUILD_TIME }}
         bodyFile: workspace/info.txt
         token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - uses: actions/checkout@v2
+    - name: Setup Debug Session
+      uses: csexton/debugger-action@master
+
+
+
+
+
