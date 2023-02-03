@@ -112,13 +112,6 @@ jobs:
       with:
         path: workspace/out/target/product/chopin/boot.img
         name: boot.img
-        tag_name: ${{ github.run_id }}
-        body: |
-          Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
-          Device: ${{ github.event.inputs.DEVICE_NAME }}
-          Target: ${{ github.event.inputs.BUILD_TARGET }}.img
-
-
-
+        
 
 
